@@ -1,0 +1,153 @@
+
+.prewiy{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+}
+.textpark{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    height: 500px;
+    background: url("../img/1d8yp3ySPrQ.jpg") top center no-repeat;
+    background-size: cover;   
+}
+.nsk{
+    color: rgb(230, 230, 230);
+
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.dsads{
+    display: flex;
+    justify-content: center;
+}
+
+.main__content2{
+    background: black;
+}
+
+.scveri__p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.paark{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.karta__a{
+    display: flex;
+}
+
+.park{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.kybiki{
+    display: flex;
+    row-gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem; 
+}
+
+.mktxty {
+    text-decoration: none;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    align-items: center;
+    justify-content: end;
+}
+
+.trial {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.themed-grid-col {
+    background: #236712;
+    border: 0px;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #EAEAEA;
+}
+.aaaaq{
+    height: 50px;
+}
+
+.searchBox{
+    position: relative;
+    right: 1rem;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: 0.25px 35px rgba(0, 0, 0, 0, 1);
+}
+.searchBox.active{
+    width: 500px;
+}
+
+.searchBox .search
+{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em ;
+    cursor: pointer;
+    color: black;
+}
+.searchBox .close
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.25em;
+    scale: 0;
+    transition: 0.5s;  
+    color: black;  
+}
+.searchBox.active .close{
+    scale: 1;
+    transition-delay: 0.3s ;
+}
+
+.searchBox .searchlnput
+{
+    position: absolute;
+    left: 90px;
+    width: calc(100% - 120 px);
+    height: 100%;
+    line-height: 60px;
+}
+.searchBox .searchlnput input
+{
+    width: 100%;
+    height: 100%;
+    border: none; 
+    outline: none;
+    font-size: 1.25em;    
+}
